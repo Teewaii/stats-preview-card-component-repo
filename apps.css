@@ -124,11 +124,11 @@ body {
 
     .card {
         max-width: 80vw;
-        padding: 3rem;
+        padding: 2rem;
         display: grid;
         margin: auto;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 95%;
+        grid-template-rows: 100%;
         /* border: 1px solid rgb(57, 40, 207); */
     }
 
