@@ -35,7 +35,7 @@ body{
 
 
 .hero{
-    background: url(/images/image-header-mobile.jpg);
+    background: url(images/image-header-mobile.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
