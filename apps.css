@@ -35,7 +35,7 @@ body{
 
 
 .hero{
-    background: url(images/image-header-mobile.jpg);
+    background: url(/images/image-header-mobile.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,7 +132,17 @@ body{
     border-bottom-right-radius: 0px;
 }
 
-.card .hero{
+ .hero{
+    background: url(/images/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
     order:2 ;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 10px;
