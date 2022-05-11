@@ -95,7 +95,6 @@ body {
 
 }
 
-
 .attribution {
     font-size: 12px;
     text-align: center;
@@ -105,6 +104,10 @@ body {
 .attribution a {
     color: var(--SoftViolet_accent);
     text-decoration: none;
+}
+
+.attribution a:hover {
+    color: rgb(150, 146, 146);
 }
 
 
