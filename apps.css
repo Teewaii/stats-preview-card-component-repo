@@ -35,7 +35,7 @@ body {
 
 
 .hero {
-    background: url(/images/image-header-mobile.jpg);
+    background: url(images/image-header-mobile.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ body {
     }
 
     .card-body {
-        padding: 2rem;
+        padding: 3rem;
         order: 1;
         width: 100%;
         border-top-left-radius: 10px;
@@ -139,7 +139,7 @@ body {
     }
 
     .hero {
-        background: url(/images/image-header-desktop.jpg);
+        background: url(images/image-header-desktop.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 300px;
@@ -156,7 +156,7 @@ body {
 
 
     .card-body h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: white;
         margin-bottom: 1.5rem;
         text-align: left;
@@ -164,8 +164,8 @@ body {
 
     .card-body p {
         color: var(--SlightlyTransparent-white_main-paragraph);
-        line-height: 2rem;
-        font-size: 1rem;
+        line-height: 1.5rem;
+        font-size: .9rem;
         text-align: left;
         width: 80%;
         max-width: 85%;
@@ -178,6 +178,7 @@ body {
         grid-template-columns: auto auto;
         grid-auto-flow: column;
         margin-top: 2rem;
+
     }
 
     /* .stats {
