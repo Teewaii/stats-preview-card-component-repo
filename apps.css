@@ -45,16 +45,20 @@ body {
     border-top-right-radius: 10px;
     position: relative;
     overflow: hidden;
+
 }
 
+
 .overlay {
-    background-color: rgba(170, 92, 219, .7);
+    background-color: rgba(170, 92, 219);
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
+    filter: opacity(0.6);
+    mix-blend-mode: hard-light;
 }
 
 .card-body {
@@ -112,7 +116,7 @@ body {
 
 
 
-@media (min-width:980px) {
+@media (min-width:800px) {
 
     .container {
         max-height: 100vh;
@@ -185,14 +189,6 @@ body {
 
     }
 
-    /* .stats {
-        text-transform: uppercase;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-
-    } */
-
     .stats h1 {
         margin-bottom: -.2rem;
         transform: scale(.7);
@@ -219,7 +215,7 @@ body {
 
     .card {
         min-height: 50vh;
-        min-width: 75vw;
+        max-width: 75vw;
 
     }
 
